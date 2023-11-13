@@ -39,8 +39,8 @@ footer {
     width: 98.4%;
 }
 
-/*Index page*/
-.background-section {
+/*Index Page*/
+.index-page .background-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/landingpage.jpg");
     height: 100vh;
     background-position: center;
@@ -53,7 +53,7 @@ footer {
     margin-right: auto;
 }
 
-.background-text {
+.index-page .background-text {
     text-align: center;
     position: absolute;
     top:60%;
@@ -62,21 +62,21 @@ footer {
     color: white;
 }
 
-.floating-image {
+.index-page .floating-image {
     position: absolute;
     top: 23%;
     left: 80%;
     transform: translate(-50%, -50%);
 }
 
-.floating-image img {
+.index-page .floating-image img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     object-fit: cover;
 }
 
-.button {
+.index-page .button {
     padding: 10px;
     background-color: #7F461B;
     color: white;
@@ -90,5 +90,58 @@ footer {
     cursor: pointer;
 }
 
-/*Contact Me Page style*/
+/*About Me Page*/
 
+.about-page .content {
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.about-page .card {
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    vertical-align: top;
+}
+
+.about-page .dog-photo {
+    max-width: 60%;
+    height: auto;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+
+.about-page .right-side-image {
+    max-width: 30%;
+    height: auto;
+    border-radius: 18px;
+    margin: 10px auto;
+    display: block;
+}
+
+.about-page .card h2 {
+    color: black;
+
+}
+
+.about-page .card h3 {
+    color: black;
+
+}
+
+.about-page ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.about-page li {
+    color: black;
+    margin-bottom: 8px;
+    list-style-type: square;
+    margin-left: 10%;
+}
