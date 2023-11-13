@@ -147,6 +147,12 @@ nav a:hover {
     padding: 10px;
 }
 
+.blog-page .content h1 {
+    text-align: center;
+    margin-bottom: 20px 0;
+    width: 100%;
+}
+
 .blog-page .blog-post {
     width: 30%;
     margin-bottom: 20px;
@@ -241,7 +247,7 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -277,4 +283,36 @@ nav a:hover {
     font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.contact-page .social-links {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.contact-page .social-links {
+    margin-right: 30px;
+}
+
+.contact-page .icon {
+    width: 40px;
+    height: 40px;
+}
+
+.contact-page .contact-info {
+    margin-top: 20px;
+}
+
+.contact-page .contact-link {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.contact-page .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
