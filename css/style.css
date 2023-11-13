@@ -78,14 +78,12 @@ footer {
 
 .index-page .button {
     padding: 10px;
-    background-color: #7F461B;
-    color: white;
-    border: none;
+    background-color: blanchedalmond;
+    color: black;
     border-radius: 5px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -180,4 +178,31 @@ footer {
 .blog-page .blog-post a {
     text-decoration: none;
     color: black;
+}
+
+/*Blog Post 1-5 pages*/
+
+.blog-pages .blog-pages-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Helvetica', Sans-serif;
+}
+
+.blog-pages .blog-photo {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.blog-pages .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
