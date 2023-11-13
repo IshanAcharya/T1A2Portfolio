@@ -6,18 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="" href="" type="image/x-icon"> <!--add icon and add pathway-->
+    <link rel="icon" href="pathway to icon" type="image/x-icon">
 </head>
 <body class="contact-page">
     <div class="container">
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./about.html">About Me</a>
-        <a href="./projects.html">My Projects</a>
-        <a href="./blog.html">My Blog</a>
-        <a href="./contact.html">Contact Me</a>
-    </nav>
-     
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About Me</a>
+            <a href="./projects.html">My Projects</a>
+            <a href="./blog.html">My Blog</a>
+            <a href="./contact.html">Contact Me</a>
+        </nav>
+        <div class="content">
+            <h1>Contact Me</h1>
+            <p>To get in touch with me, please contact me through my socials or submit the form below.</p>
+            <div class="card">
+                <form>
+                    <label for="fname"><b>First Name</b></label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Your First Name">
 
+                    <label for="lname"><b>Last Name</b></label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Your Last Name">
+
+                    <label for="contactnumber"><b>Contact Number</b></label>
+                    <input type="text" id="contactnumber" name="contactnumber" placeholder="Your Contact Number">
+
+                    <label for="emailaddress"><b>Email Address</b></label>
+                    <input type="email" id="email" name="email" placeholder="Your Email Address">
+           
+                    <label for="message"><b>Subject</b></label>
+                    <textarea id="message" name="message" style="height:200px" placeholder="Your Message"></textarea>
+
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>
