@@ -9,7 +9,7 @@ body, html {
 }
 
 nav {
-    background-color: #483c3244;
+    background-color: blanchedalmond;
     padding: 20px;
     color: white;
     text-align: center;
@@ -95,7 +95,7 @@ footer {
 .about-page .content {
     text-align: center;
     width: 80%;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .about-page .card {
@@ -144,4 +144,40 @@ footer {
     margin-bottom: 8px;
     list-style-type: square;
     margin-left: 10%;
+}
+
+/*Blog page*/
+
+.blog-page .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.blog-page .blog-post {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.blog-page .blog-post img {
+    max-width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.blog-page .blog-post h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.blog-page .blog-post a {
+    text-decoration: none;
+    color: black;
 }
