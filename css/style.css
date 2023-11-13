@@ -29,16 +29,6 @@ nav a:hover {
     transition: background-color 0.3s;
 }
 
-footer {
-    background-color: #483c3244;
-    color: saddlebrown;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 98.4%;
-}
-
 /*Index Page*/
 .index-page .background-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/landingpage.jpg");
@@ -180,7 +170,7 @@ footer {
     color: black;
 }
 
-/*Blog Post 1-5 pages*/
+/*Blog 1-5 pages*/
 
 .blog-pages .blog-pages-content {
     display: flex;
@@ -206,3 +196,5 @@ footer {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/*My Projects Page*/
