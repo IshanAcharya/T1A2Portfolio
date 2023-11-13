@@ -198,3 +198,33 @@ nav a:hover {
 }
 
 /*My Projects Page*/
+
+.projects-page .content {
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.projects-page .card {
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.projects-page .project-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 18px;
+    margin-top: 10px
+}
+
+.projects-page .card h3 {
+    color: black;
+
+}
