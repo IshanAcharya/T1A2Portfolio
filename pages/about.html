@@ -9,12 +9,12 @@
     <title>About Me</title>
      <!--link to external stylesheet-->
     <link rel="stylesheet" href="/css/style.css">
-    <!--favicon for website tabs-->
+    <!--icon for website tabs-->
     <link rel="icon" href="/assets/icons/landingpagefavicon.ico" type="image/x-icon">
 </head>
 <body class="about-page">
-    <!--container for page-->
-    <div class="container">
+    <!--header for page-->
+    <header>
         <!--navigation bar-->
         <nav>
         <a href="/">Home</a>
@@ -23,10 +23,13 @@
         <a href="./blog.html">My Blog</a>
         <a href="./contact.html">Contact Me</a>
         </nav>
+    </header>
+    <!--main content for page-->
+    <main class="container">
         <!--content for page-->
-        <div class="content">
+        <article class="content">
             <!--card containing my information/background, text, and bullet points-->
-            <div class="card">
+            <section class="card">
                 <h2><u>About Me</u></h2>
                 <ul>
                     <p>Hi, I'm Ishan! I'm a Nepali-born Australian who is currently undetaking a career change to become an aspiring Full Stack Developer.</p>
@@ -42,9 +45,9 @@
                     <!--image of my dogs-->
                     <img src="/assets/images/luffybiscuit.jpg" alt="My Dogs" class="dog-photo">
                 </ul>
-            </div>
+            </section>
             <!--card containing information about my history, text, and bullet points-->
-            <div class="card">
+            <section class="card">
                 <h2><u>My History</u></h2>
                 <h3>Education History</h3>
                 <!--image of me-->
@@ -62,9 +65,9 @@
                     <li>Campbelltown City Council - Corporate Strategy & Planning Officer (2023-2023)</li>
                     <li>Campbelltown City Council - Economy and Business Project Officer (2018-2022)</li>
                 </ul>
-            </div>
+            </section>
             <!--card containing information about my skillset, text, and bullet points-->
-            <div class="card">
+            <section class="card">
                 <h2><u>My Skills</u></h2>
                 <ul>
                     <p>I am at the beginner level of learning web development, so my technical skills are currently being refined.</p>
@@ -77,8 +80,8 @@
                     <li>Flask</li>
                     <li>Node/Express</li>
                 </ul>
-            </div>
-        </div>
-    </div>
+            </section>
+        </article>
+    </main>
 </body>
 </html>

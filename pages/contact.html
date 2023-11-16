@@ -13,8 +13,8 @@
     <link rel="icon" href="/assets/icons/landingpagefavicon.ico" type="image/x-icon">
 </head>
 <body class="contact-page">
-    <!--container for page-->
-    <div class="container">
+    <!--header for page-->
+    <header>
         <!--navigation bar-->
         <nav>
             <a href="/">Home</a>
@@ -23,15 +23,18 @@
             <a href="./blog.html">My Blog</a>
             <a href="./contact.html">Contact Me</a>
         </nav>
+    </header>
+    <!--content for page-->
+    <main class="container">
         <!--page content-->
-        <div class="content">
+        <section class="content">
             <!--heading and text-->
             <h1>Contact Me</h1>
             <p>To get in touch with me, please contact me through my socials or submit the form below.</p>
             <!--card containing social links and contact form-->
-            <div class="card">
+            <article class="card">
                 <!--social links and icons of linkedin, github, phone number and email address-->
-                <div class="social-links">
+                <section class="social-links">
                     <a href="https://www.linkedin.com/in/ishan-acharya" target="_blank" class="social-link">
                         <img src="/assets/icons/linkedinicon.png" alt="LinkedIn" class="icon">
                     </a>
@@ -44,8 +47,9 @@
                     <a href="mailto:14875@coderacademy.edu.au" class="social-link">
                         <img src="/assets/icons/emailicon.png" alt="Email" class="icon">
                     </a>
-                </div>
+                </section>
                 <!--contact form-->
+            <section class="contact-form">
                 <form>
                     <label for="fname"><b>First Name</b></label>
                     <input type="text" id="firstname" name="firstname" placeholder="Your First Name">
@@ -64,8 +68,8 @@
                     <!--submit button-->
                     <input type="submit" value="submit">
                 </form>
-            </div>
-        </div>
-    </div>    
+            </section>
+        </section>
+    </main>   
 </body>
 </html>
