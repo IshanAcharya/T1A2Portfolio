@@ -35,6 +35,31 @@ nav a:hover {
     transition: background-color 0.3s;
 }
 
+/*Media Query to adjust nav bar size for mobile device*/
+@media only screen and (max-width: 430px) {
+    nav {
+        padding: 10px;
+    }
+}
+    nav a {
+        padding: 10px 12px;
+        font-size: 10px;
+    }
+
+/*Media Query to adjust nav bar size for tablet*/
+@media only screen and (min-width: 431px) and (max-width: 834px) {
+    nav a {
+        font-size: 16px;
+    }
+}
+
+/*Media Query to adjust nav bar size for desktop*/ 
+@media only screen and (min-width: 835px) {
+    nav a {
+        font-size: 18px;
+    }
+}
+
 /*Index Page*/
 /*styling for background section in the index page*/
 .index-page .background-section {
@@ -211,10 +236,16 @@ nav a:hover {
     font-family: 'Helvetica', Sans-serif;
 }
 
-/*styling for blog photos present in blog1.html, blog2.html, blog3.html, blog4.html, and blog5.html*/*/
-.blog-pages .blog-photo {
-    max-width: 100%;
-    border-radius: 8px;
+/*styling for blog photos present in blog1.html, blog2.html, blog3.html, blog4.html, and blog5.html*/
+/*Media Query for blog page/photos when viewing on mobile device*/
+
+@media only screen and (max-width: 430px) {
+    .blog-pages .blog-photo {
+        width: 100%;
+        height: auto;
+        max-width: 100%; 
+        overflow: hidden
+    }
 }
 
 /*styling for back button present in blog1.html, blog2.html, blog3.html, blog4.html, and blog5.html*/*/
