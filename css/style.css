@@ -118,6 +118,9 @@ nav a:hover {
 
 /*styling for content in about me page*/
 .about-page .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     width: 80%;
     margin: 10px auto;
@@ -125,13 +128,15 @@ nav a:hover {
 
 /*styling for cards in about me page*/
 .about-page .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: blanchedalmond;
-    border: 1px solid black;
+    border: 1px black;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    display: grid;
-    vertical-align: top;
+    max-width: 600px;
 }
 
 /*styling for dog photo in about me page*/
@@ -140,6 +145,8 @@ nav a:hover {
     height: auto;
     border-radius: 18px;
     margin-top: 10px;
+    display: block;
+    margin: 10px auto;
 }
 
 /*styling for photo of me in about me page*/
