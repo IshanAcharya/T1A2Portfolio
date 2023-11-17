@@ -150,8 +150,8 @@ nav a:hover {
 }
 
 /*styling for photo of me in about me page*/
-.about-page .right-side-image {
-    max-width: 30%;
+.about-page .graduation-image {
+    max-width: 40%;
     height: auto;
     border-radius: 18px;
     margin: 10px auto;
