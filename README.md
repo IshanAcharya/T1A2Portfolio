@@ -9,7 +9,7 @@ Hello, welcome to my website! I have created this website in October 2023, whils
 
 [Link to Github Repository](https://github.com/IshanAcharya/T1A2Portfolio)
 
-[Link to presentation video] (insert link to uploaded video)
+[Link to presentation video](https://www.youtube.com/watch?v=nKK9kMXRVZg)
 
 # Purpose
 
